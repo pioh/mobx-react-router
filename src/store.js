@@ -1,11 +1,9 @@
 import {makeAutoObservable} from 'mobx';
 
 export class RouterStore {
-  location = null;
-
-  history = null;
-
   constructor() {
+    this.location = null;
+    this.history = null;
     makeAutoObservable(this);
   }
 

@@ -3,7 +3,7 @@
   "description": "Keep your MobX state in sync with react-router",
   "main": "index.js",
   "types": "./types.d.ts",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "scripts": {
     "lint": "eslint src __test__",
     "test": "npm run lint && jest",
