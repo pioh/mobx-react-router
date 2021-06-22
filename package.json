@@ -1,9 +1,9 @@
 {
   "name": "mobx-react-router",
   "description": "Keep your MobX state in sync with react-router",
-  "main": "dist/mobx-react-router.js",
+  "main": "index.js",
   "types": "./types.d.ts",
-  "version": "4.4.5-mobx6",
+  "version": "6.0.0",
   "scripts": {
     "lint": "eslint src __test__",
     "test": "npm run lint && jest",
