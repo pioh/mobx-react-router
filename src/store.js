@@ -14,23 +14,23 @@ export class RouterStore {
   /*
    * History methods
    */
-  push = (location, state) => {
+  push(location, state) {
     this.history.push(location, state);
   };
 
-  replace = (location, state) => {
+  replace(location, state) {
     this.history.replace(location, state);
   };
 
-  go = (n) => {
+  go(n) {
     this.history.go(n);
   };
 
-  goBack = () => {
+  goBack() {
     this.history.goBack();
   };
 
-  goForward = () => {
+  goForward() {
     this.history.goForward();
   };
 };
